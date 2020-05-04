@@ -29,6 +29,7 @@ app.get('/', jsonParser, (req, res) => {
 
 //POST ROUTES
 app.post('/', jsonParser, (req, res) => {
+  console.log(req.body)
   res.status(201).json(req.body)
 })
 
