@@ -33,3 +33,5 @@ class Newsletter {
       })
   }
 }
+
+module.exports = Newsletter
