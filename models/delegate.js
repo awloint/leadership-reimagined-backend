@@ -15,4 +15,4 @@ const delegateSchema = new Schema(
 
 const Delegate = mongoose.model('Delegate', delegateSchema)
 
-module.exports(Delegate)
+module.exports = Delegate
