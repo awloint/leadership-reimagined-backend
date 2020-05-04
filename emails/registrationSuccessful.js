@@ -54,7 +54,7 @@ const htmlBody = (firstName, lastName) => {
         </table>`
 }
 
-const textBodySuccess = (firstName, lastName) => {
+const textBody = (firstName, lastName) => {
   return `
     Dear ${firstName} ${lastName},
     African Women in Leadership Organisation AWLO is inviting you to our Virtual Leadership Conference
@@ -67,5 +67,4 @@ const textBodySuccess = (firstName, lastName) => {
     `
 }
 
-exports.htmlBodySuccess = htmlBodySuccess
-exports.textBodySuccess = textBodySuccess
+module.exports = { htmlBody, textBody }
