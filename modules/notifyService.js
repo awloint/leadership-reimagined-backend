@@ -1,32 +1,32 @@
 const Newsletter = require('./newsletter')
 const Email = require('./email')
 const { htmlBody, textBody } = require('../emails/registrationSuccessful')
-const { Delegate } = require('../models/delegate')
+const Delegate = require('../models/delegate')
 
 class NotifyService {
   static email_delegate (delegate) {
-    const name = `${volunteer.firstName} ${volunteer.lastName}`
+    const name = `${delegate.firstName} ${delegate.lastName}`
 
     //add user to mailing list
     Newsletter.addToList(
-      volunteer.firstName,
-      volunteer.lastName,
+      delegate.firstName,
+      delegate.lastName,
       name,
-      volunteer.email,
-      volunteer.phone,
+      delegate.email,
+      delegate.phone,
       '19008'
     )
 
     //send email
     Email.sendWithoutAttachment(
-      volunteer.firstName,
-      volunteer.lastName,
-      volunteer.email,
+      delegate.firstName,
+      delegate.lastName,
+      delegate.email,
       'African Women in Leadership Organisation',
       'info@awlo.org',
       'Women in the Frontline In Crisis Time: Rethinking Impact And The Challenges Of Leadership',
-      textBody(volunteer.firstName, volunteer.lastName),
-      htmlBody(volunteer.firstName, volunteer.lastName)
+      textBody(delegate.firstName, delegate.lastName),
+      htmlBody(delegate.firstName, delegate.lastName)
     )
   }
 }

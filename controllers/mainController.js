@@ -1,23 +1,21 @@
-const { Delegate } = require('../models/delegate')
+const Delegate = require('../models/delegate')
 const express = require('express')
 const NotifyService = require('../modules/notifyService')
 const mongoose = require('mongoose')
 
-const createDelegate = (req, res) => {
-  const delegate = new Delegate(req.body)
-  delegate
-    .save()
-    .then(() => {
+const createDelegate = async (req, res) => {
+  //   console.log(req.body)
+  try {
+    const delegate = new Delegate(req.body)
+    await delegate.save().then(() => {
       res.status(201).json({
         message: 'Delegate created successfully'
       })
       NotifyService.email_delegate(delegate)
     })
-    .catch(err => {
-      res.status(400).json({
-        error: `Error creating deleagate ${err}`
-      })
-    })
+  } catch (error) {
+    res.status(409).json({ message: 'user exists' })
+  }
 }
 
 const findAllDelegates = async (req, res) => {

@@ -18,8 +18,8 @@ class Newsletter {
             IsExcludedFromCampaigns: 'false',
             Name: name,
             Properties: {
-              firstname: firstname,
-              lastname: lastname,
+              firstname: firstName,
+              lastname: lastName,
               phone: phone
             }
           }
