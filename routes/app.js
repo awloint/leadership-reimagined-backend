@@ -14,7 +14,7 @@ const app = express()
 //Database connection
 // mongoose.Collection('useCreateIndexes', true);
 
-const uri = `mongodb+srv://${process.env.ATLAS_USER}:${process.env.ATLAS_PASSWORD}@main-cluster-8mekn.mongodb.net/zoom-delegates?retryWrites=true&w=majority`
+const uri = `mongodb+srv://${process.env.ATLAS_USER}:${process.env.ATLAS_PASSWORD}@main-cluster-8mekn.mongodb.net/zoom-conference-workplace-inequality?retryWrites=true&w=majority`
 mongoose
   .connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {

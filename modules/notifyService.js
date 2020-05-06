@@ -14,7 +14,7 @@ class NotifyService {
       name,
       delegate.email,
       delegate.phone,
-      '19008'
+      '19282'
     )
 
     //send email
@@ -24,7 +24,7 @@ class NotifyService {
       delegate.email,
       'African Women in Leadership Organisation',
       'info@awlo.org',
-      'Women in the Frontline In Crisis Time: Rethinking Impact And The Challenges Of Leadership',
+      'Workplace Inequality - Aligning you as a brand to purposefully disrupt the system.',
       textBody(delegate.firstName, delegate.lastName),
       htmlBody(delegate.firstName, delegate.lastName)
     )
