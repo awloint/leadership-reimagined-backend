@@ -17,7 +17,7 @@ const htmlBody = (firstName, lastName) => {
         <td style='color: #000; font-size: 12pt; font-family: Helvetica; font-weight: normal; line-height: 15pt; padding: 40px 40px 80px 40px;' colspan='2' valign='top'>Hi ${firstName} ${lastName},
         <p>African Women in Leadership Organisation AWLO is inviting you to our Virtual Leadership Conference <br>
         <strong>Topic:</strong> Workplace Inequality - Aligning you as a brand to purposefully disrupt the system.<br>
-        <strong>Time:</strong> May 6, 2020 07:00 PM Nigeria (in your local time)<br>
+        <strong>Time:</strong> May 11, 2020 07:00 PM Nigeria (in your local time)<br>
         </p>
         <p>
         Zoom meeting link: <a href='https://zoom.us/j/99631340490?pwd=Yml0RHMwbXFTMzNRajFDdUJPaVhGdz09'>https://zoom.us/j/99631340490?pwd=Yml0RHMwbXFTMzNRajFDdUJPaVhGdz09</a> <br>
