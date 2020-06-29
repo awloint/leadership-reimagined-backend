@@ -14,7 +14,7 @@ class NotifyService {
       name,
       delegate.email,
       delegate.phone,
-      '19282'
+      '24490'
     )
 
     //send email

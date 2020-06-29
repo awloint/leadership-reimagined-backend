@@ -16,13 +16,13 @@ const htmlBody = (firstName, lastName) => {
         <tr>
         <td style='color: #000; font-size: 12pt; font-family: Helvetica; font-weight: normal; line-height: 15pt; padding: 40px 40px 80px 40px;' colspan='2' valign='top'>Hi ${firstName} ${lastName},
         <p>African Women in Leadership Organisation AWLO is inviting you to our Virtual Leadership Conference <br>
-        <strong>Topic:</strong> Workplace Inequality - Aligning you as a brand to purposefully disrupt the system.<br>
-        <strong>Time:</strong> May 11, 2020 07:00 PM Nigeria (in your local time)<br>
+        <strong>Topic:</strong> De-Culturing Rape in Africa and Finding effective solutions for Victims.<br>
+        <strong>Time:</strong> Jul 3, 2020 06:00 PM London (in your local time)<br>
         </p>
         <p>
-        Zoom meeting link: <a href='https://zoom.us/j/99631340490?pwd=Yml0RHMwbXFTMzNRajFDdUJPaVhGdz09'>https://zoom.us/j/99631340490?pwd=Yml0RHMwbXFTMzNRajFDdUJPaVhGdz09</a> <br>
-        <strong>Meeting ID:</strong> 996-3134-0490 <br>
-        <strong>Password:</strong> 001831
+        Zoom meeting link: <a href='https://zoom.us/j/93332511950?pwd=dVFuSzRLLzdsb1cvNGNWNStPLzVGdz09'>https://zoom.us/j/93332511950?pwd=dVFuSzRLLzdsb1cvNGNWNStPLzVGdz09</a> <br>
+        <strong>Meeting ID:</strong> 933-3251-1950 <br>
+        <strong>Password:</strong> 525957
         </p>
         <p>Best regards!</p>
         </td>
@@ -58,11 +58,11 @@ const textBody = (firstName, lastName) => {
   return `
     Dear ${firstName} ${lastName},
     African Women in Leadership Organisation AWLO is inviting you to our Virtual Leadership Conference
-    Topic: Workplace Inequality - Aligning you as a brand to purposefully disrupt the system.
-    Time: May 11, 2020 07:00 PM Nigeria (in your local time)
-    Zoom Meeting Link: https://zoom.us/j/99631340490?pwd=Yml0RHMwbXFTMzNRajFDdUJPaVhGdz09
-    Meeting ID: 996-3134-0490
-    Password: 001831
+    Topic: De-Culturing Rape in Africa and Finding effective solutions for Victims.
+    Time: Jul 3, 2020 06:00 PM London (in your local time)
+    Zoom Meeting Link: https://zoom.us/j/93332511950?pwd=dVFuSzRLLzdsb1cvNGNWNStPLzVGdz09
+    Meeting ID: 933-3251-1950
+    Password: 525957
     Best regards!
     `
 }
