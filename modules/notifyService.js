@@ -24,7 +24,7 @@ class NotifyService {
       delegate.email,
       'African Women in Leadership Organisation',
       'info@awlo.org',
-      'Workplace Inequality - Aligning you as a brand to purposefully disrupt the system.',
+      'De-Culturing Rape in Africa and Finding effective solutions for Victims.',
       textBody(delegate.firstName, delegate.lastName),
       htmlBody(delegate.firstName, delegate.lastName)
     )
