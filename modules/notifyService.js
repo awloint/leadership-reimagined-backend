@@ -15,7 +15,7 @@ class NotifyService {
       name,
       delegate.email,
       delegate.phone,
-      ${process.env.mailjetListId}
+      `${process.env.mailjetListId}`
     )
 
     //send email
@@ -25,7 +25,7 @@ class NotifyService {
       delegate.email,
       'African Women in Leadership Organisation',
       'info@awlo.org',
-      ${process.env.emailSubject},
+      `${process.env.emailSubject}`,
       textBody(delegate.firstName, delegate.lastName),
       htmlBody(delegate.firstName, delegate.lastName)
     )
