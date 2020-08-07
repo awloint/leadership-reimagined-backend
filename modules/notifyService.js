@@ -1,3 +1,4 @@
+require('dotenv').config()
 const Newsletter = require('./newsletter')
 const Email = require('./email')
 const { htmlBody, textBody } = require('../emails/registrationSuccessful')
@@ -14,7 +15,7 @@ class NotifyService {
       name,
       delegate.email,
       delegate.phone,
-      '24490'
+      ${process.env.mailjetListId}
     )
 
     //send email
