@@ -14,15 +14,14 @@ const htmlBody = (firstName, lastName) => {
         <td style='padding-right: 40px; text-align: right;' colspan='2'></td>
         </tr>
         <tr>
-        <td style='color: #000; font-size: 12pt; font-family: Helvetica; font-weight: normal; line-height: 15pt; padding: 40px 40px 80px 40px;' colspan='2' valign='top'>Hi ${firstName} ${lastName},
-        <p>African Women in Leadership Organisation AWLO is inviting you to our Virtual Leadership Conference <br>
-        <strong>Topic:</strong> De-Culturing Rape in Africa and Finding effective solutions for Victims.<br>
-        <strong>Time:</strong> Jul 3, 2020 06:00 PM London (in your local time)<br>
+        <td style='color: #000; font-size: 12pt; font-family: Helvetica; font-weight: normal; line-height: 15pt; padding: 40px 40px 80px 40px;' colspan='2' valign='top'>Dear ${firstName} ${lastName},
+        <p>Thank you for your registration. African Women in Leadership Organisation is inviting you to mark INTERNATIONAL YOUTH DAY 2020 on <strong>August 12, 2020</strong> at <strong>10:00am (London time)</strong>, with the theme being <strong>YOUTH ENGAGEMENT FOR GLOBAL ACTION.</strong>
         </p>
+        <p>The United Nation says, "In particular, IYD 2020 seeks to highlight the ways in which the engagement of young people at the local, national and global levels is enriching national and multilateral institutions and processes, as well as draw lessons on how their representation and engagement in formal institutional politics can be significantly enhanced"</p>
         <p>
-        Zoom meeting link: <a href='https://zoom.us/j/93332511950?pwd=dVFuSzRLLzdsb1cvNGNWNStPLzVGdz09'>https://zoom.us/j/93332511950?pwd=dVFuSzRLLzdsb1cvNGNWNStPLzVGdz09</a> <br>
-        <strong>Meeting ID:</strong> 933-3251-1950 <br>
-        <strong>Password:</strong> 525957
+        Here is a link to join: <a href='https://zoom.us/j/95374665719?pwd=Zkd5Ui9kN2x6ZkZnN3krTVlkaUd3Zz09'>https://zoom.us/j/95374665719?pwd=Zkd5Ui9kN2x6ZkZnN3krTVlkaUd3Zz09</a> <br>
+        <strong>Meeting ID:</strong>953 7466 5719 <br>
+        <strong>Password:</strong> 407378
         </p>
         <p>Best regards!</p>
         </td>
@@ -57,12 +56,11 @@ const htmlBody = (firstName, lastName) => {
 const textBody = (firstName, lastName) => {
   return `
     Dear ${firstName} ${lastName},
-    African Women in Leadership Organisation AWLO is inviting you to our Virtual Leadership Conference
-    Topic: De-Culturing Rape in Africa and Finding effective solutions for Victims.
-    Time: Jul 3, 2020 06:00 PM London (in your local time)
-    Zoom Meeting Link: https://zoom.us/j/93332511950?pwd=dVFuSzRLLzdsb1cvNGNWNStPLzVGdz09
-    Meeting ID: 933-3251-1950
-    Password: 525957
+    Thank you for your registration. African Women in Leadership Organisation is inviting you to mark INTERNATIONAL YOUTH DAY 2020 on August 12, 2020 at 10:00am (London time), with the theme being YOUTH ENGAGEMENT FOR GLOBAL ACTION.
+    The United Nation says, "In particular, IYD 2020 seeks to highlight the ways in which the engagement of young people at the local, national and global levels is enriching national and multilateral institutions and processes, as well as draw lessons on how their representation and engagement in formal institutional politics can be significantly enhanced".
+    Here is the Zoom Meeting Link: https://zoom.us/j/95374665719?pwd=Zkd5Ui9kN2x6ZkZnN3krTVlkaUd3Zz09
+    Meeting ID: 953 7466 5719
+    Password: 407378
     Best regards!
     `
 }
