@@ -15,13 +15,14 @@ const htmlBody = (firstName, lastName) => {
         </tr>
         <tr>
         <td style='color: #000; font-size: 12pt; font-family: Helvetica; font-weight: normal; line-height: 15pt; padding: 40px 40px 80px 40px;' colspan='2' valign='top'>Dear ${firstName} ${lastName},
-        <p>Thank you for your registration. African Women in Leadership Organisation is inviting you to mark INTERNATIONAL YOUTH DAY 2020 on <strong>August 12, 2020</strong> at <strong>10:00am (London time)</strong>, with the theme being <strong>YOUTH ENGAGEMENT FOR GLOBAL ACTION.</strong>
+        <p>Thank you for your registration. African Women in Leadership Organisation (AWLO), is inviting you to a Webinar on African Women's Role in the emerging Global Digital Workforce. It is scheduled for <strong>Sep 2, 2020 at 07:00 PM (Nigerian time)</strong>.
         </p>
-        <p>The United Nation says, "In particular, IYD 2020 seeks to highlight the ways in which the engagement of young people at the local, national and global levels is enriching national and multilateral institutions and processes, as well as draw lessons on how their representation and engagement in formal institutional politics can be significantly enhanced"</p>
+        <p>The ongoing workplace transformation has warranted governments' remodeling of infrastructure, and implementing policies, to suit the new workforce. Notably, women have been the most affected by unemployment. Not only are they battling domestic and professional priorities, but their skills face obsolesce.</p>
+        <p>In line with our objectives to advance women's leadership, this webinar provides the tools and resources to equip them for the new world of work.</p>
         <p>
-        Here is a link to join: <a href='https://zoom.us/j/95374665719?pwd=Zkd5Ui9kN2x6ZkZnN3krTVlkaUd3Zz09'>https://zoom.us/j/95374665719?pwd=Zkd5Ui9kN2x6ZkZnN3krTVlkaUd3Zz09</a> <br>
-        <strong>Meeting ID:</strong>953 7466 5719 <br>
-        <strong>Password:</strong> 407378
+        Here is a link to join: <a href='https://zoom.us/j/95219634373?pwd=M0ovUWxJd3ZZU3Fkc2d3Q0laQnJpQT09'>https://zoom.us/j/95219634373?pwd=M0ovUWxJd3ZZU3Fkc2d3Q0laQnJpQT09</a> <br>
+        <strong>Meeting ID:</strong>952 1963 4373 <br>
+        <strong>Password:</strong> 231096
         </p>
         <p>Best regards!</p>
         </td>
@@ -56,11 +57,12 @@ const htmlBody = (firstName, lastName) => {
 const textBody = (firstName, lastName) => {
   return `
     Dear ${firstName} ${lastName},
-    Thank you for your registration. African Women in Leadership Organisation is inviting you to mark INTERNATIONAL YOUTH DAY 2020 on August 12, 2020 at 10:00am (London time), with the theme being YOUTH ENGAGEMENT FOR GLOBAL ACTION.
-    The United Nation says, "In particular, IYD 2020 seeks to highlight the ways in which the engagement of young people at the local, national and global levels is enriching national and multilateral institutions and processes, as well as draw lessons on how their representation and engagement in formal institutional politics can be significantly enhanced".
-    Here is the Zoom Meeting Link: https://zoom.us/j/95374665719?pwd=Zkd5Ui9kN2x6ZkZnN3krTVlkaUd3Zz09
-    Meeting ID: 953 7466 5719
-    Password: 407378
+    Thank you for your registration. African Women in Leadership Organisation (AWLO), is inviting you to a Webinar on African Women's Role in the emerging Global Digital Workforce. It is scheduled for Sep 2, 2020 at 07:00 PM (Nigerian time).
+    The ongoing workplace transformation has warranted governments' remodeling of infrastructure, and implementing policies, to suit the new workforce. Notably, women have been the most affected by unemployment. Not only are they battling domestic and professional priorities, but their skills face obsolesce.
+    In line with our objectives to advance women's leadership, this webinar provides the tools and resources to equip them for the new world of work.
+    Here is the Zoom Meeting Link: https://zoom.us/j/95219634373?pwd=M0ovUWxJd3ZZU3Fkc2d3Q0laQnJpQT09
+    Meeting ID: 952 1963 4373
+    Password: 231096
     Best regards!
     `
 }
