@@ -15,14 +15,16 @@ const htmlBody = (firstName, lastName) => {
         </tr>
         <tr>
         <td style='color: #000; font-size: 12pt; font-family: Helvetica; font-weight: normal; line-height: 15pt; padding: 40px 40px 80px 40px;' colspan='2' valign='top'>Dear ${firstName} ${lastName},
-        <p>Thank you for your registration. African Women in Leadership Organisation (AWLO), is inviting you to a Webinar on African Women's Role in the emerging Global Digital Workforce. It is scheduled for <strong>Sep 2, 2020 at 07:00 PM (Nigerian time)</strong>.
+        <p>Thank you for registering for AWLO International Day of the Girl Child Webinar.
         </p>
-        <p>The ongoing workplace transformation has warranted governments' remodeling of infrastructure, and implementing policies, to suit the new workforce. Notably, women have been the most affected by unemployment. Not only are they battling domestic and professional priorities, but their skills face obsolesce.</p>
-        <p>In line with our objectives to advance women's leadership, this webinar provides the tools and resources to equip them for the new world of work.</p>
+        <p>Join our Keynote Speaker, Mrs. Oyeyimika Adeboye; the first female Managing Director of Cadbury Nigeria, and our youth leaders globally, as we mark 2020 International Day of the Girl Child (IDG).</p>
+        <p>Did you know that the journey of an equal world for women has been unfolding better and better? So let's toast to our greatness, as we mark another IDG.</p>
+        <p>It is one for highlighting issues of girls and women's empowerment, and the rights of women and girls. And this year's IDG theme is <strong>My Voice, Our Equal Future</strong></p>
         <p>
-        Here is a link to join: <a href='https://zoom.us/j/95219634373?pwd=M0ovUWxJd3ZZU3Fkc2d3Q0laQnJpQT09'>https://zoom.us/j/95219634373?pwd=M0ovUWxJd3ZZU3Fkc2d3Q0laQnJpQT09</a> <br>
-        <strong>Meeting ID:</strong>952 1963 4373 <br>
-        <strong>Password:</strong> 231096
+        Join the event via: <a href='https://zoom.us/j/95359142264?pwd=MmhmdzFpZDZLTXhpOUMyYWJ0UUhRdz09'>https://zoom.us/j/95359142264?pwd=MmhmdzFpZDZLTXhpOUMyYWJ0UUhRdz09</a> <br>
+        <strong>Meeting ID:</strong>953 5914 2264 <br>
+        <strong>Password:</strong> 635446
+        <Strong>Time:</Strong> Oct 11, 2020 06:00 PM (Nigerian time) <br>
         </p>
         <p>Best regards!</p>
         </td>
@@ -57,12 +59,14 @@ const htmlBody = (firstName, lastName) => {
 const textBody = (firstName, lastName) => {
   return `
     Dear ${firstName} ${lastName},
-    Thank you for your registration. African Women in Leadership Organisation (AWLO), is inviting you to a Webinar on African Women's Role in the emerging Global Digital Workforce. It is scheduled for Sep 2, 2020 at 07:00 PM (Nigerian time).
-    The ongoing workplace transformation has warranted governments' remodeling of infrastructure, and implementing policies, to suit the new workforce. Notably, women have been the most affected by unemployment. Not only are they battling domestic and professional priorities, but their skills face obsolesce.
-    In line with our objectives to advance women's leadership, this webinar provides the tools and resources to equip them for the new world of work.
-    Here is the Zoom Meeting Link: https://zoom.us/j/95219634373?pwd=M0ovUWxJd3ZZU3Fkc2d3Q0laQnJpQT09
-    Meeting ID: 952 1963 4373
-    Password: 231096
+    Thank you for registering for AWLO International Day of the Girl Child Webinar.
+    Join our Keynote Speaker, Mrs. Oyeyimika Adeboye; the first female Managing Director of Cadbury Nigeria, and our youth leaders globally, as we mark 2020 International Day of the Girl Child (IDG).
+    Did you know that the journey of an equal world for women has been unfolding better and better? So let's toast to our greatness, as we mark another IDG.
+    It is one for highlighting issues of girls and women's empowerment, and the rights of women and girls. And this year's IDG theme is My Voice, Our Equal Future
+    Join Zoom Event via: https://zoom.us/j/95359142264?pwd=MmhmdzFpZDZLTXhpOUMyYWJ0UUhRdz09
+    Time: Oct 11, 2020 06:00 PM (Nigerian time)
+    Meeting ID: 953 5914 2264
+    Passcode: 635446
     Best regards!
     `
 }
