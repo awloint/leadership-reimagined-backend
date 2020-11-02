@@ -21,7 +21,7 @@ const htmlBody = (firstName, lastName) => {
         Join the event via: <a href='https://zoom.us/j/97125150389?pwd=aFBqMkM5Yms3WDN4SmpOcnFTc3A1Zz09'>https://zoom.us/j/97125150389?pwd=aFBqMkM5Yms3WDN4SmpOcnFTc3A1Zz09</a> <br>
         <strong>Meeting ID:</strong>971 2515 0389 <br>
         <strong>Password:</strong> 142096
-        <Strong>Time:</Strong> Nov 9, 2020 07:00 PM (Nigerian Time) <br>
+        <Strong>Time:</Strong> Nov 9, 2020 07:00 PM (Nigerian Time). <br>
         </p>
         <p>Looking forward to seeing you soon!</p>
         </td>
