@@ -20,7 +20,9 @@ const createDelegate = async (req, res) => {
 
 const findAllDelegates = async (req, res) => {
   const delegate = await Delegate.find()
-    .select('firstName lastName email phone city country createdAt updatedAt')
+    .select(
+      'firstName lastName email phone city country organisationalChallenges alterStrategies strategiesImplemented createdAt updatedAt'
+    )
     .exec()
     .then(results => {
       const result = results.map(result => {
@@ -31,6 +33,9 @@ const findAllDelegates = async (req, res) => {
           phone: result.phone,
           city: result.city,
           country: result.country,
+          organisationalChallenges: result.organisationalChallenges,
+          alterStrategies: result.alterStrategies,
+          strategiesImplemented: result.strategiesImplemented,
           createdAt: result.createdAt,
           updatedAt: result.updatedAt
         }

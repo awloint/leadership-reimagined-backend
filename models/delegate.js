@@ -8,7 +8,10 @@ const delegateSchema = new Schema(
     email: { type: String, required: true, unique: true, trim: true },
     phone: { type: String, required: true, trim: true },
     city: { type: String, required: true, trim: true },
-    country: { type: String, required: true, trim: true }
+    country: { type: String, required: true, trim: true },
+    organisationalChallenges: { type: String, required: true, trim: true },
+    alterStrategies: { type: String, required: true, trim: true },
+    strategiesImplemented: { type: String, required: false, trim: true }
   },
   { timestamps: true }
 )
