@@ -21,7 +21,7 @@ const htmlBody = (firstName, lastName) => {
         Join the event via: <a href='https://zoom.us/j/97125150389?pwd=aFBqMkM5Yms3WDN4SmpOcnFTc3A1Zz09'>https://zoom.us/j/97125150389?pwd=aFBqMkM5Yms3WDN4SmpOcnFTc3A1Zz09</a> <br>
         <strong>Meeting ID:</strong>971 2515 0389 <br>
         <strong>Password:</strong> 142096
-        <Strong>Time:</Strong> Nov 9, 2020 07:00 PM London <br>
+        <Strong>Time:</Strong> Nov 9, 2020 07:00 PM (Nigerian Time) <br>
         </p>
         <p>Looking forward to seeing you soon!</p>
         </td>
@@ -59,7 +59,7 @@ const textBody = (firstName, lastName) => {
     We are living in unprecedented times, and now more than ever the role of leadership is critical to organisational success.
     African Women in Leadership Organisation AWLO is inviting you to the Leadership 'Reimagined' Zoom event.
     Join Zoom Event via: https://zoom.us/j/97125150389?pwd=aFBqMkM5Yms3WDN4SmpOcnFTc3A1Zz09
-    Time: Nov 9, 2020 07:00 PM London
+    Time: Nov 9, 2020 07:00 PM (Nigerian Time)
     Meeting ID: 971 2515 0389
     Passcode: 142096
     Look forward to seeing you soon!
