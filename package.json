@@ -1,14 +1,14 @@
 {
-  "name": "zoom-conference-backend",
+  "name": "leadership-reimagined-api",
   "version": "1.0.0",
-  "description": "A quick and dirty backend for the AWLO Zoom Conference Registration",
+  "description": "A quick API for the AWLO & Beam Agile Leadership Reimagined Training",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/awloint/zoom-conference-backend.git"
+    "url": "git+https://github.com/awloint/leadership-reimagined-backend.git"
   },
   "keywords": [
     "Backend",
@@ -19,9 +19,9 @@
   "author": "Benson Imoh,ST",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/awloint/zoom-conference-backend/issues"
+    "url": "https://github.com/awloint/leadership-reimagined-backend/issues"
   },
-  "homepage": "https://github.com/awloint/zoom-conference-backend#readme",
+  "homepage": "https://github.com/awloint/leadership-reimagined-backend#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
